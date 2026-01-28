@@ -1,0 +1,32 @@
+<section class="hero">
+  <h1 class="name animate-fade-in-up">{{ name }}</h1>
+  <h2 class="role animate-fade-in-up" style="animation-delay: 0.1s">{{ role }}</h2>
+  <p class="description animate-fade-in-up" style="animation-delay: 0.2s">{{ description }}</p>
+  <p class="previous-roles animate-fade-in-up" style="animation-delay: 0.3s">
+    Previously
+    @for (prev of previousRoles; track prev.company; let last = $last) {
+      {{ prev.role }} at <a [href]="prev.link" target="_blank" class="company-link">{{ prev.company }}</a>@if (!last) { and }
+    }
+  </p>
+  <!-- Tech Badges -->
+  <div class="tech-badges animate-fade-in-up" style="animation-delay: 0.4s">
+    @for (tech of technologies; track tech) {
+      <app-tech-badge [name]="tech" />
+    }
+  </div>
+</section>
+
+<!-- Skills Section -->
+<section class="skills-section animate-fade-in-up" style="animation-delay: 0.5s">
+  <div class="skills-container">
+    @for (spec of specializations; track spec.title; let i = $index) {
+      <app-skill-card
+        [title]="spec.title"
+        [skills]="spec.skills"
+        [accentColor]="spec.color"
+        [style.animation-delay]="(i * 0.1) + 's'"
+        class="skill-card-animate"
+      />
+    }
+  </div>
+</section>

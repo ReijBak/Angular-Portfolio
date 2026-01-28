@@ -1,0 +1,13 @@
+<div class="card">
+  <h3 class="card-title" [style.color]="accentColor()">
+    {{ title() }}
+  </h3>
+  <ul class="skills-list">
+    @for (skill of skills(); track skill) {
+      <li class="skill-item">
+        <span class="bullet" [style.background-color]="accentColor()"></span>
+        {{ skill }}
+      </li>
+    }
+  </ul>
+</div>
