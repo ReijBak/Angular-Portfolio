@@ -21,7 +21,7 @@ jobs:
         run: echo "${{ secrets.GITHUB_TOKEN }}" | docker login ghcr.io -u ${{ github.actor }} --password-stdin
 
       - name: Build image
-        run: docker build -t ghcr.io/silicon-metrics/frontendservice:latest .
+        run: docker build -t ghcr.io/reijbak/angular-portfolio:latest .
 
       - name: Push image
-        run: docker push ghcr.io/silicon-metrics/frontendservice:latest
+        run: docker push ghcr.io/reijbak/angular-portfolio:latest
