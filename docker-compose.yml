@@ -1,0 +1,9 @@
+services:
+  portfolio:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: angular-portfolio
+    ports:
+      - "4200:4200"
+    restart: unless-stopped
