@@ -28,7 +28,7 @@ export class HomePage {
     {
       title: 'Frontend Development',
       color: '#22d3ee',
-      skills: ['Vue.js Web Interfaces', 'Responsive Design', 'Component-Based Architecture'],
+      skills: ['Vue.js Web Interfaces', 'Responsive Design', 'Component-Based Architecture', 'SPA and MPA development'],
     },
   ];
 }
