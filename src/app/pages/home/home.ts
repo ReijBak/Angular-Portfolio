@@ -17,7 +17,7 @@ export class HomePage {
     { role: 'Coder', company: 'Riwi', link: 'https://riwi.io/' },
   ];
 
-  technologies = ['C#', 'Vue.js', 'Angular', 'Unity Engine'];
+  technologies = ['C#', 'Vue', 'Angular', 'Unity Engine'];
 
   specializations = [
     {
@@ -28,7 +28,7 @@ export class HomePage {
     {
       title: 'Frontend Development',
       color: '#22d3ee',
-      skills: ['Vue.js Web Interfaces', 'Responsive Design', 'Component-Based Architecture', 'SPA and MPA development'],
+      skills: ['Vue Web Interfaces', 'Responsive Design', 'Component-Based Architecture', 'SPA and MPA development'],
     },
   ];
 }
