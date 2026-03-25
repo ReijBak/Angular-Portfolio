@@ -9,17 +9,17 @@ import { Component } from '@angular/core';
 export class ProjectsPage {
   projects = [
     {
-      title: 'Silicon Metrics',
+      title: 'SiliconMetrics',
       description: 'SiliconMetrics is a web application for gaming performance analysis and cost-per-FPS decision support.',
-      technologies: ['.NET 8', 'Nuxt 4', 'Vue.js 3.5'],
-      image: '',
+      technologies: ['.NET 8', 'Nuxt 4', 'Vue 3.5'],
+      image: '../../../../SiliconMetrics.png',
       liveUrl: 'https://silmet.stevencardona.dev',
       repoUrl: 'https://github.com/orgs/Silicon-Metrics/repositories',
     },
     {
       title: 'TalentoPlus',
       description: 'A comprehensive web-based system for employee management in organizations.',
-      technologies: ['.NET 9', 'Vue.js 3.5'],
+      technologies: ['.NET 9', 'Vue 3.5'],
       image: '',
       liveUrl: '#',
       repoUrl: 'https://github.com/ReijBak/TalentoPlus',
@@ -28,7 +28,7 @@ export class ProjectsPage {
       title: 'Riwi wallet (frontend)',
       description: 'Central financial management service, providing expense validation, transaction management, ' +
         'budget rules, and user authentication',
-      technologies: ['Vue.js 3.5'],
+      technologies: ['Vue 3.5'],
       image: '',
       liveUrl: '#',
       repoUrl: 'https://github.com/Team-Avaricia/Frontend',
