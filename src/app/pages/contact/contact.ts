@@ -8,8 +8,8 @@ import { Component } from '@angular/core';
 })
 export class ContactPage {
   socialLinks = [
-    { name: 'GitHub', url: '#', icon: '💻' },
-    { name: 'LinkedIn', url: '#', icon: '💼' },
-    { name: 'Email', url: 'mailto:your@email.com', icon: '✉️' },
+    { name: 'GitHub', url: 'https://github.com/ReijBak', icon: '💻' },
+    { name: 'LinkedIn', url: 'https://www.linkedin.com/in/reijbak', icon: '💼' },
+    { name: 'Email', url: 'mailto:reijbak@gmail.com', icon: '✉️' },
   ];
 }
