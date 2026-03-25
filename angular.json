@@ -55,6 +55,11 @@
         },
         "serve": {
           "builder": "@angular/build:dev-server",
+          "options": {
+            "allowedHosts": [
+              "stevencardona.dev"
+            ]
+          },
           "configurations": {
             "production": {
               "buildTarget": "Portfolio:build:production"
