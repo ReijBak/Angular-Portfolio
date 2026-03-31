@@ -20,8 +20,8 @@ export class ProjectsPage {
       title: 'TalentoPlus',
       description: 'A comprehensive web-based system for employee management in organizations.',
       technologies: ['.NET 9', 'Vue 3.5'],
-      image: '',
-      liveUrl: '#',
+      image: '../../../../TalentoPlus.png',
+      liveUrl: 'https://talentoplus.stevencardona.dev',
       repoUrl: 'https://github.com/ReijBak/TalentoPlus',
     },
     {
@@ -29,18 +29,9 @@ export class ProjectsPage {
       description: 'Central financial management service, providing expense validation, transaction management, ' +
         'budget rules, and user authentication',
       technologies: ['Vue 3.5'],
-      image: '',
-      liveUrl: '#',
-      repoUrl: 'https://github.com/Team-Avaricia/Frontend',
-    },
-    {
-      title: 'Multistore Tenancy',
-      description: 'A multi-tenant system where different businesses can have their own online store, completely ' +
-        'separate from the others, but managed from a central domain.',
-      technologies: ['Laravel 12', 'PHP 8.2', 'Blade'],
-      image: '',
-      liveUrl: '#',
-      repoUrl: 'https://github.com/ReijBak/Multistore-tenancy',
-    },
+      image: '../../../../RiwiWallet.png',
+      liveUrl: 'https://riwiwallet.stevencardona.dev',
+      repoUrl: 'https://github.com/ReijBak/RiwiWallet-Frontend',
+    }
   ];
 }
