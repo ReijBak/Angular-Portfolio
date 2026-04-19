@@ -24,18 +24,15 @@
   align-items: center;
 }
 
-.logo-text {
-  font-size: 1.75rem;
-  font-weight: 700;
-  font-style: italic;
-  background: linear-gradient(135deg, #a855f7 0%, #ec4899 50%, #22d3ee 100%);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  background-clip: text;
+.logo-image {
+  width: 42px;
+  height: 42px;
+  object-fit: contain;
+  border-radius: 50%;
   transition: transform 0.3s ease;
 }
 
-.logo:hover .logo-text {
+.logo:hover .logo-image {
   transform: scale(1.05);
 }
 

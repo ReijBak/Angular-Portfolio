@@ -11,13 +11,15 @@ import { SkillCardComponent } from '../../components/skill-card/skill-card';
 export class HomePage {
   name = 'Steven Cardona';
   role = 'Full Stack Developer';
-  description = '🚀 Turning ideas into living code. Passionate about building exceptional web experiences and exploring new technological horizons. Where logic meets creativity.';
+  description = 'Turning ideas into living code. Passionate about building exceptional web experiences and exploring new technological horizons. Where logic meets creativity.';
 
   previousRoles = [
     { role: 'Coder', company: 'Riwi', link: 'https://riwi.io/' },
   ];
 
-  technologies = ['C#', 'Vue', 'Angular', 'Unity Engine'];
+  technologies = [
+    'ASP .NET Core', 'Vue.js', 'Docker', 'Docker Compose', 'SQL', 'Git', 'GitHub', 'CI/CD', 'Nginx'
+  ];
 
   specializations = [
     {
